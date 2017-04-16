@@ -1,7 +1,4 @@
 .idea
 .gradle
-build/classes
-build/kotlin*
-build/libs
-build/tmp
-build/
+/build
+!build/distributions

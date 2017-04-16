@@ -24,7 +24,9 @@ dependencies {
         "com.amazonaws:aws-lambda-java-core:1.1.0",
         "com.amazonaws:aws-lambda-java-events:1.1.0",
         "org.apache.httpcomponents:httpclient:4.4.1"
-   )
+    )
+
+    testCompile "junit:junit:4.12"
 }
 
 task buildZip(type: Zip) {
