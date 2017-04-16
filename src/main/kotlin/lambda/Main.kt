@@ -17,7 +17,7 @@ class Main {
         val lambdaLogger = context.logger
         val ip = getIp()
         lambdaLogger.log("Current IP is: $ip\n")
-        lambdaLogger.log("Successfully executed Main.handler()\n")
+        lambdaLogger.log("Inside Main.handler()\n")
         return "Successfully executed Main.handler()"
     }
 
