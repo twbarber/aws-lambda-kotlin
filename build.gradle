@@ -23,6 +23,7 @@ dependencies {
         "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version",
         "com.amazonaws:aws-lambda-java-core:1.1.0",
         "com.amazonaws:aws-lambda-java-events:1.1.0",
+        "org.apache.httpcomponents:httpclient:4.4.1"
    )
 }
 
